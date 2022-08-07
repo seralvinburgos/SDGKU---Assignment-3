@@ -1,0 +1,102 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Special+Elite&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+html{
+    font-size: 62.5%;/*reset to 10px*/
+    overflow-x: hidden;
+}
+body{
+    background-image: url(mountains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    background-color: #111111;
+    overflow-x: hidden;
+
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    margin-bottom: 20px;  
+}
+h2{
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 2rem;
+}
+p{
+    padding: 2rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+main{
+    height: 100vh;
+}
+.main-div{
+    display: flex;
+}
+/*classes*/
+.greeting{
+    font-size: 2rem;
+}
+.my-name{
+    font-size: 2rem;
+}
+.site-header .user-info{
+    width: 33rem;
+    padding-top: 4rem;
+    height: 100%; 
+    background-color: #222222;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.site-header h1{
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 2rem;
+}
+.site-header .title{
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 3rem;
+}
+.site-header .location{
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+}
+.site-header img{
+    width: 200px;
+    border-radius: 0%;
+    border: 3px solid white;
+}
+/*menu*/
+nav.menu{
+    width: 100%;
+}
+nav.menu a{
+    font-family: 'Special Elite', cursive;
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #333333;
+    color: white;
+    border-radius: 5rem;
+    margin: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+main p{
+    color: white;
+    font-size: 1.6rem;
+}
